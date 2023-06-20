@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Krona+One&family=Monoton&family=Oswald&family=Saira:wght@100&family=Ultra&display=swap');
+body{
+    background-image: url(./img/pluma.jpg);
+    width: 50%;
+    margin: auto;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family:'Inconsolata', monospace;
+    text-decoration: underline;
+}
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font-family:'Inconsolata', monospace;
+}
+div{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    img{
+        height: 200px;
+        width: 200px;
+        ;
+        
+    }
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    li{
+        padding: 5px;
+        color: whitesmoke;
+        font-family:'Inconsolata', monospace;
+    }:hover{
+        border: 2px solid white;
+    }
+}
+.carro{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    background-color: black;
+    }

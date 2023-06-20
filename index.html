@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreEntrega2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+<h1>Bienvenidos a Ploom Deco</h1>
+<h2>¿Qué producto te gustaría comprar con tu cupón?</h2>
+<ul>
+    <li onclick="agregarAlCarrito(espejo)">Espejo</li>
+    <li onclick="agregarAlCarrito(cuadro)">Cuadro</li>
+    <li onclick="agregarAlCarrito(perchero)">Perchero</li>
+    <li onclick="agregarAlCarrito(mesa)">Mesa</li>
+</ul>
+</header>
+<section class="carro">
+    <h2>Carrito</h2>
+    <div id="carrito"></div>
+    <h2>Cupon: <span id="valor"></span></h2>
+</section>
+    <script src="./Js/app.js"></script>
+</body>
+</html>
